@@ -1,0 +1,402 @@
+{
+    "root": [
+        {
+            "layerUniqueId": "root",
+            "layerName": "$root",
+            "layerType": "Card",
+            "isCustom": false,
+            "parent": null,
+            "children": [
+                "$id1"
+            ],
+            "childrensUniqueIds": [
+                "4x8CQd_b3BH1sjCmdTwkW"
+            ],
+            "layerProps": {
+                "sx": {
+                    "height": "360px",
+                    "width": "900px",
+                    "display": "grid",
+                    "placeItems": "center",
+                    "borderRadius": "20px"
+                }
+            },
+            "layerAnnotation": {
+                "top": 368,
+                "left": 518,
+                "width": 900,
+                "height": 360
+            }
+        },
+        {
+            "layerUniqueId": "4x8CQd_b3BH1sjCmdTwkW",
+            "layerName": "$id1",
+            "layerType": "Stack",
+            "isCustom": false,
+            "parent": "$root",
+            "children": [
+                "$id2",
+                "$id3"
+            ],
+            "childrensUniqueIds": [
+                "QbYMVKeI6TnzeqgXkMJTa",
+                "5nQ_NmCLLqly59PjR7Bj-"
+            ],
+            "layerProps": {
+                "spacing": "2",
+                "margin": "1",
+                "direction": "row",
+                "sx": {
+                    "alignItems": "center",
+                    "width": "calc(100% - 1rem)",
+                    "height": "calc(100% - 1rem)"
+                }
+            },
+            "layerAnnotation": {
+                "top": 376,
+                "left": 526,
+                "width": 884,
+                "height": 344
+            }
+        },
+        {
+            "layerUniqueId": "QbYMVKeI6TnzeqgXkMJTa",
+            "layerName": "$id2",
+            "layerType": "CardMedia",
+            "isCustom": false,
+            "parent": "$id1",
+            "children": [],
+            "childrensUniqueIds": [],
+            "layerProps": {
+                "component": "img",
+                "src": "https://images.unsplash.com/photo-1505807557511-bc38492556a6",
+                "alt": "leaves",
+                "sx": {
+                    "height": "340px",
+                    "borderRadius": "16px",
+                    "aspectRatio": "4/3"
+                }
+            },
+            "layerAnnotation": {
+                "top": 378,
+                "left": 526,
+                "width": 453.328125,
+                "height": 340
+            }
+        },
+        {
+            "layerUniqueId": "5nQ_NmCLLqly59PjR7Bj-",
+            "layerName": "$id3",
+            "layerType": "Stack",
+            "isCustom": false,
+            "parent": "$id1",
+            "children": [
+                "$id4",
+                "$id5"
+            ],
+            "childrensUniqueIds": [
+                "lHb3HWul5svfPB8wqabHz",
+                "ybccaWo7tXqW87Y0w9M7R"
+            ],
+            "layerProps": {
+                "sx": {
+                    "height": "100%",
+                    "justifyContent": "space-around"
+                }
+            },
+            "layerAnnotation": {
+                "top": 376,
+                "left": 979.328125,
+                "width": 430.671875,
+                "height": 344
+            }
+        },
+        {
+            "layerUniqueId": "lHb3HWul5svfPB8wqabHz",
+            "layerName": "$id4",
+            "layerType": "CardContent",
+            "isCustom": false,
+            "parent": "$id3",
+            "children": [
+                "$id6"
+            ],
+            "childrensUniqueIds": [
+                "OXXv6kLLHg7aGl9v6mUGg"
+            ],
+            "layerProps": {},
+            "layerAnnotation": {
+                "top": 400.609375,
+                "left": 979.328125,
+                "width": 430.671875,
+                "height": 189.5625
+            }
+        },
+        {
+            "layerUniqueId": "ybccaWo7tXqW87Y0w9M7R",
+            "layerName": "$id5",
+            "layerType": "Stack",
+            "isCustom": false,
+            "parent": "$id3",
+            "children": [
+                "$id7",
+                "$id8"
+            ],
+            "childrensUniqueIds": [
+                "inzWdAoWuLPIDnwXbEfee",
+                "4qvJIqoOL5V27-WD9FDVC"
+            ],
+            "layerProps": {
+                "direction": "row",
+                "sx": {
+                    "justifyContent": "space-between"
+                }
+            },
+            "layerAnnotation": {
+                "top": 639.390625,
+                "left": 979.328125,
+                "width": 430.671875,
+                "height": 56
+            }
+        },
+        {
+            "layerUniqueId": "OXXv6kLLHg7aGl9v6mUGg",
+            "layerName": "$id6",
+            "layerType": "Stack",
+            "isCustom": false,
+            "parent": "$id4",
+            "children": [
+                "$id9",
+                "$id10"
+            ],
+            "childrensUniqueIds": [
+                "-b6wDGYAPT81waNhSi9xK",
+                "9GTSyaLHGy_dRaXtQPlOw"
+            ],
+            "layerProps": {
+                "spacing": 2
+            },
+            "layerAnnotation": {
+                "top": 416.609375,
+                "left": 995.328125,
+                "width": 398.671875,
+                "height": 157.5625
+            }
+        },
+        {
+            "layerUniqueId": "inzWdAoWuLPIDnwXbEfee",
+            "layerName": "$id7",
+            "layerType": "RC-1",
+            "isCustom": true,
+            "parent": "$id5",
+            "children": [],
+            "childrensUniqueIds": [],
+            "layerProps": {},
+            "layerAnnotation": {
+                "top": 639.390625,
+                "left": 995.328125,
+                "width": 163.140625,
+                "height": 56
+            }
+        },
+        {
+            "layerUniqueId": "4qvJIqoOL5V27-WD9FDVC",
+            "layerName": "$id8",
+            "layerType": "CardActions",
+            "isCustom": false,
+            "parent": "$id5",
+            "children": [
+                "$id11"
+            ],
+            "childrensUniqueIds": [
+                "-L0yuCI16xmO7PWQbOEns"
+            ],
+            "layerProps": {},
+            "layerAnnotation": {
+                "top": 639.390625,
+                "left": 1354,
+                "width": 56,
+                "height": 56
+            }
+        },
+        {
+            "layerUniqueId": "-b6wDGYAPT81waNhSi9xK",
+            "layerName": "$id9",
+            "layerType": "Typography",
+            "isCustom": false,
+            "parent": "$id6",
+            "children": [],
+            "childrensUniqueIds": [],
+            "layerProps": {
+                "fontWeight": "600",
+                "fontSize": "1.3rem"
+            },
+            "layerAnnotation": {
+                "top": 416.609375,
+                "left": 995.328125,
+                "width": 398.671875,
+                "height": 93.5625
+            }
+        },
+        {
+            "layerUniqueId": "9GTSyaLHGy_dRaXtQPlOw",
+            "layerName": "$id10",
+            "layerType": "Typography",
+            "isCustom": false,
+            "parent": "$id6",
+            "children": [],
+            "childrensUniqueIds": [],
+            "layerProps": {},
+            "layerAnnotation": {
+                "top": 526.171875,
+                "left": 995.328125,
+                "width": 398.671875,
+                "height": 48
+            }
+        },
+        {
+            "layerUniqueId": "-L0yuCI16xmO7PWQbOEns",
+            "layerName": "$id11",
+            "layerType": "IconButton",
+            "isCustom": false,
+            "parent": "$id8",
+            "children": [
+                "$id12"
+            ],
+            "childrensUniqueIds": [
+                "H9gzHv1b7gmUatkwA0I47"
+            ],
+            "layerProps": {
+                "aria-label": "share"
+            },
+            "layerAnnotation": {
+                "top": 647.390625,
+                "left": 1362,
+                "width": 40,
+                "height": 40
+            }
+        },
+        {
+            "layerUniqueId": "H9gzHv1b7gmUatkwA0I47",
+            "layerName": "$id12",
+            "layerType": "Icon",
+            "isCustom": false,
+            "parent": "$id11",
+            "children": [],
+            "childrensUniqueIds": [],
+            "layerProps": {},
+            "layerAnnotation": {
+                "top": 655.390625,
+                "left": 1370,
+                "width": 24,
+                "height": 24
+            }
+        }
+    ],
+    "RC-1": [
+        {
+            "layerUniqueId": "inzWdAoWuLPIDnwXbEfee",
+            "layerName": "$root",
+            "layerType": "Stack",
+            "isCustom": false,
+            "parent": null,
+            "children": [
+                "$id1",
+                "$id2"
+            ],
+            "childrensUniqueIds": [
+                "IL8O_4lAHayoZ3Q1r5asN",
+                "aIdOZHs__tjszWcGaYdpt"
+            ],
+            "layerProps": {
+                "direction": "row",
+                "spacing": 2,
+                "ml": 2
+            },
+            "layerAnnotation": {
+                "top": 639.390625,
+                "left": 995.328125,
+                "width": 163.140625,
+                "height": 56
+            }
+        },
+        {
+            "layerUniqueId": "IL8O_4lAHayoZ3Q1r5asN",
+            "layerName": "$id1",
+            "layerType": "Avatar",
+            "isCustom": false,
+            "parent": "$root",
+            "children": [],
+            "childrensUniqueIds": [],
+            "layerProps": {
+                "alt": "Remy Sharp",
+                "src": "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+                "sx": {
+                    "height": "50px",
+                    "width": "50px"
+                }
+            },
+            "layerAnnotation": {
+                "top": 639.390625,
+                "left": 995.328125,
+                "width": 50,
+                "height": 50
+            }
+        },
+        {
+            "layerUniqueId": "aIdOZHs__tjszWcGaYdpt",
+            "layerName": "$id2",
+            "layerType": "Stack",
+            "isCustom": false,
+            "parent": "$root",
+            "children": [
+                "$id3",
+                "$id4"
+            ],
+            "childrensUniqueIds": [
+                "hd4CTBtazAOK6G1QGW3Sx",
+                "y-KaqZ4c2MUnFlZmiGYja"
+            ],
+            "layerProps": {},
+            "layerAnnotation": {
+                "top": 639.390625,
+                "left": 1061.328125,
+                "width": 97.140625,
+                "height": 56
+            }
+        },
+        {
+            "layerUniqueId": "hd4CTBtazAOK6G1QGW3Sx",
+            "layerName": "$id3",
+            "layerType": "Typography",
+            "isCustom": false,
+            "parent": "$id2",
+            "children": [],
+            "childrensUniqueIds": [],
+            "layerProps": {
+                "fontWeight": 600
+            },
+            "layerAnnotation": {
+                "top": 639.390625,
+                "left": 1061.328125,
+                "width": 97.140625,
+                "height": 24
+            }
+        },
+        {
+            "layerUniqueId": "y-KaqZ4c2MUnFlZmiGYja",
+            "layerName": "$id4",
+            "layerType": "Typography",
+            "isCustom": false,
+            "parent": "$id2",
+            "children": [],
+            "childrensUniqueIds": [],
+            "layerProps": {},
+            "layerAnnotation": {
+                "top": 663.390625,
+                "left": 1061.328125,
+                "width": 97.140625,
+                "height": 24
+            }
+        }
+    ]
+}

@@ -1,0 +1,305 @@
+
+dsl{
+	component root() {
+		layer $root {
+			type "mui" Card;
+			props {
+				"sx" = {
+          "height" = "360px",
+          "width" = "900px",
+          "display" = "grid",
+          "placeItems" = "center",
+          "borderRadius" = "20px"
+				}
+			};
+			parent null;
+			children [
+				$id1,
+			];
+			annotation {
+        "top" = 368,
+        "left" = 518,
+        "width" = 900,
+        "height" = 360
+			};
+    };
+		layer $id1 {
+			type "mui" Stack;
+			props {
+				"spacing" = "2",
+				"margin" = "1",
+				"direction" = "row",
+				"sx" = {
+          "alignItems" = "center",
+          "width" = "calc(100% - 1rem)",
+          "height" = "calc(100% - 1rem)"
+				}
+			};
+			parent $root;
+			children [
+				$id2,
+				$id3,
+			];
+			annotation {
+        "top" = 376,
+        "left" = 526,
+        "width" = 884,
+        "height" = 344
+			};
+    };
+		layer $id2 {
+			type "mui" CardMedia;
+			props {
+				"component" = "img",
+				"src" = "https://images.unsplash.com/photo-1505807557511-bc38492556a6",
+				"alt" = "leaves",
+				"sx" = {
+          "height" = "340px",
+          "borderRadius" = "16px",
+          "aspectRatio" = "4/3"
+				}
+			};
+			parent $id1;
+			children [];
+			annotation {
+        "top" = 378,
+        "left" = 526,
+        "width" = 453.328125,
+        "height" = 340
+			};
+    };
+		layer $id3 {
+			type "mui" Stack;
+			props {
+				"sx" = {
+          "height" = "100%",
+          "justifyContent" = "space-around"
+				}
+			};
+			parent $id1;
+			children [
+				$id4,
+				$id5,
+			];
+			annotation {
+        "top" = 376,
+        "left" = 979.328125,
+        "width" = 430.671875,
+        "height" = 344
+			};
+    };
+		layer $id4 {
+			type "mui" CardContent;
+			props {};
+			parent $id3;
+			children [
+				$id6,
+			];
+			annotation {
+        "top" = 400.609375,
+        "left" = 979.328125,
+        "width" = 430.671875,
+        "height" = 189.5625
+			};
+    };
+		layer $id5 {
+			type "mui" Stack;
+			props {
+				"direction" = "row",
+				"sx" = {
+          "justifyContent" = "space-between"
+				}
+			};
+			parent $id3;
+			children [
+				$id7,
+				$id8,
+			];
+			annotation {
+        "top" = 639.390625,
+        "left" = 979.328125,
+        "width" = 430.671875,
+        "height" = 56
+			};
+    };
+		layer $id6 {
+			type "mui" Stack;
+			props {
+				"spacing" = 2,
+			};
+			parent $id4;
+			children [
+				$id9,
+				$id10,
+			];
+			annotation {
+        "top" = 416.609375,
+        "left" = 995.328125,
+        "width" = 398.671875,
+        "height" = 157.5625
+			};
+    };
+		layer $id7 {
+			type "custom" RC-1;
+			props {};
+			parent $id5;
+			children [];
+			annotation {
+        "top" = 639.390625,
+        "left" = 995.328125,
+        "width" = 163.140625,
+        "height" = 56
+			};
+    };
+		layer $id8 {
+			type "mui" CardActions;
+			props {};
+			parent $id5;
+			children [
+				$id11,
+			];
+			annotation {
+        "top" = 639.390625,
+        "left" = 1354,
+        "width" = 56,
+        "height" = 56
+			};
+    };
+		layer $id9 {
+			type "mui" Typography;
+			props {
+				"fontWeight" = "600",
+				"fontSize" = "1.3rem",
+			};
+			parent $id6;
+			children [];
+			annotation {
+        "top" = 416.609375,
+        "left" = 995.328125,
+        "width" = 398.671875,
+        "height" = 93.5625
+			};
+    };
+		layer $id10 {
+			type "mui" Typography;
+			props {};
+			parent $id6;
+			children [];
+			annotation {
+        "top" = 526.171875,
+        "left" = 995.328125,
+        "width" = 398.671875,
+        "height" = 48
+			};
+    };
+		layer $id11 {
+			type "mui" IconButton;
+			props {
+				"aria-label" = "share",
+			};
+			parent $id8;
+			children [
+				$id12,
+			];
+			annotation {
+        "top" = 647.390625,
+        "left" = 1362,
+        "width" = 40,
+        "height" = 40
+			};
+    };
+		layer $id12 {
+			type "mui" Icon;
+			props {};
+			parent $id11;
+			children [];
+			annotation {
+        "top" = 655.390625,
+        "left" = 1370,
+        "width" = 24,
+        "height" = 24
+			};
+    };
+  };
+	component RC-1() {
+		layer $root {
+			type "mui" Stack;
+			props {
+				"direction" = "row",
+				"spacing" = 2,
+				"ml" = 2,
+			};
+			parent null;
+			children [
+				$id1,
+				$id2,
+			];
+			annotation {
+        "top" = 639.390625,
+        "left" = 995.328125,
+        "width" = 163.140625,
+        "height" = 56
+			};
+    };
+		layer $id1 {
+			type "mui" Avatar;
+			props {
+				"alt" = "Remy Sharp",
+				"src" = "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+				"sx" = {
+          "height" = "50px",
+          "width" = "50px"
+				}
+			};
+			parent $root;
+			children [];
+			annotation {
+        "top" = 639.390625,
+        "left" = 995.328125,
+        "width" = 50,
+        "height" = 50
+			};
+    };
+		layer $id2 {
+			type "mui" Stack;
+			props {};
+			parent $root;
+			children [
+				$id3,
+				$id4,
+			];
+			annotation {
+        "top" = 639.390625,
+        "left" = 1061.328125,
+        "width" = 97.140625,
+        "height" = 56
+			};
+    };
+		layer $id3 {
+			type "mui" Typography;
+			props {
+				"fontWeight" = 600,
+			};
+			parent $id2;
+			children [];
+			annotation {
+        "top" = 639.390625,
+        "left" = 1061.328125,
+        "width" = 97.140625,
+        "height" = 24
+			};
+    };
+		layer $id4 {
+			type "mui" Typography;
+			props {};
+			parent $id2;
+			children [];
+			annotation {
+        "top" = 663.390625,
+        "left" = 1061.328125,
+        "width" = 97.140625,
+        "height" = 24
+			};
+    };
+  };
+};
